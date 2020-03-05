@@ -52,7 +52,7 @@ void Shell::shellCommand(char* cmd[], bool async){
     }
 }
 
-void Shell::setPreviousCommand(char* saveCmd[]){
+void Shell::setPreviousCommand(char saveCmd[]){
     strcpy(history, saveCmd);
 }
 

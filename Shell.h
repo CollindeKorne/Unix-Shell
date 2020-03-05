@@ -9,7 +9,7 @@ class Shell {
     public:
     bool should_run; //flag to determine when to exit program
     Shell();
-    void setPreviousCommand(char* []);
+    void setPreviousCommand(char []);
     bool validUserCommand(char*[]);
     int tokenize(char[], char*[]);
     bool isAmpersand(char[]);
